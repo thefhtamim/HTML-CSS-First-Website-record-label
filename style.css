@@ -1,0 +1,5223 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/* ---------------------MY CODE!!!-------------------------- */ 
+
+
+
+* {
+    text-decoration: none;
+    font-family: 'open Montserrat', sans-serif;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+/*--------------- below IS NAV AND Brand LOGO  ----------------*/
+
+
+header  {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    border-bottom: 2px solid black;
+     z-index: 9995;
+}
+
+header, .navbar {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 9995;
+  
+   
+}
+
+ /* ------------------------Brand Logo Lowkey below for moblie/ipad & pc----------------- */
+
+
+header .header-brand  {
+    position: fixed;
+    font-family: 'open Montserrat', sans-serif;
+    font-size: 37px;
+    font-weight: 800;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3.4px;
+    z-index: 9995;
+    text-align: center;
+    padding: 16px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* this is for galaxy s5  & nexus 5 */
+@media only screen and (device-width: 360px)  {
+  
+    
+header .header-brand {
+    z-index: 9995;
+    
+    position: relative;
+   
+    left: 25px;
+    margin-top: 3.4px;
+     display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+    
+}
+
+
+
+
+/* this is for LG opimus*/
+@media only screen and (device-width: 320px)  {
+  
+   
+header .header-brand {
+    z-index: 9995;
+    
+    position: relative;
+    top: -3px;
+    left: 30px;
+    margin-top: 3.4px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+   
+    
+}
+
+
+/* this is for pixel 2*/
+@media only screen and (device-width: 411px)  {
+  
+   
+header .header-brand {
+   
+     z-index: 9995;
+    position: relative;
+    top: -4px;
+    left: 15px;
+    margin-top: 3.4px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+   
+    
+}
+
+
+/* this is for iphone6/7/8*/
+@media only screen and (device-width: 375px)  {
+  
+   
+header .header-brand {
+   
+     z-index: 9995;
+    position: relative;
+    top: -3px;
+    left: 15px;
+    margin-top: 3.4px;
+    display: flex;
+    justify-content: center;
+  
+
+}
+   
+    
+}
+
+
+
+/* this is for iphone 6/7/8 pro */
+@media only screen and (device-width: 414px)  {
+  
+   
+header .header-brand {
+    z-index: 9995;
+    
+    position: relative;
+    top: -5px;
+    left: 15px;
+    margin-top: 3.4px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+   
+    
+}
+
+/*---------------------- Brand Logo  above for moblie/ipad & pc --------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- could be new navgation BAR ------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*---------------- could be new navgation BAR ------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.navbar{
+ 
+  overflow:hidden;
+  height:70px;
+    width: 65px;
+}
+
+.navbar a{
+    
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:16px 16px;
+  text-decoration:none;
+  font-size:17px;
+    
+}
+
+
+
+.navbar ul{
+    
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+.navbar a:hover{
+  background-color:;
+  color:#000;
+}
+
+.side-nav{
+    
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:9996;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+      background-color: black;
+}
+
+.side-nav a{
+  font-family: 'open Montserrat', sans-serif;
+  position: relative;
+  top:-75px;
+  left:0;
+  padding:35px 10px 10px 30px;
+  text-decoration:none;
+  font-size:30px;
+  color:white;
+  display:block;
+  transition:0.3s;
+     
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:relative;
+  top:-75px;
+  left:5px;
+  font-size:50px;
+  margin-left:155px;
+   z-index: 9999;
+}
+
+#main{
+
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+   
+}
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+
+
+
+
+
+
+
+/*---------------- could be new navgation BAR ------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*---------------- could be new navgation BAR ------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------- THIS IS CODE FOR THE ANIMATION NAVIGATION BAR -----------
+
+
+
+
+#mainnav {
+    text-align: center;
+  float: none;
+  position: absolute;
+  top: 44%;
+  left: 45%;
+    margin: auto;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-family: 'open Montserrat', sans-serif;
+  z-index: 9999;   
+}
+
+#mainnav li {
+    
+  margin: 50px 0px;
+  position: relative;
+  display: none;
+    
+   
+}
+
+#mainnav a {
+ 
+    
+  font-family: 'open Montserrat', sans-serif;
+  display: block;
+  color: white;   
+  text-decoration: none;
+  font-size: 2.9rem; 
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 34px;
+} 
+
+ .gap ul li{
+  list-style: none;
+  margin-top: -50px;
+ }
+
+.hamb {
+    
+  position: absolute;
+    margin-left: 18px;
+    margin-top: 15.4px;
+  top: 0;
+  left:0;
+  font-size: 2.5em;
+  z-index: 9999;
+ 
+
+}
+
+.hamb a {
+ 
+  color: black;
+  text-decoration: none;
+}
+
+#bubble {
+  
+  width: 100%;
+  height: 100%;
+  opacity: 0.;
+  position: fixed;
+  display: none;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.8);
+}
+             
+ .gap{
+  
+  color: black;
+  margin-top: 600px;
+  line-height: 17px;
+     
+}
+
+
+
+  
+
+/* this is for ipad 
+@media only screen and (device-width: 768px)  {
+ 
+
+#mainnav {
+    text-align: center;
+  float: none;
+  position: absolute;
+  top: 44%;
+  left: 47.3%;
+    margin: auto;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-family: 'open Montserrat', sans-serif;
+  z-index: 9999;   
+}
+
+    
+}
+
+/* this is for ipad pro 
+@media only screen and (min-width: 1024px)  {
+ 
+
+#mainnav {
+    text-align: center;
+  float: none;
+  position: absolute;
+  top: 44%;
+  left: 47.9%;
+    margin: auto;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-family: 'open Montserrat', sans-serif;
+  z-index: 9999;   
+}
+
+    
+}
+
+
+
+
+@media only screen and (min-width: 1424px)  {
+ 
+
+#mainnav {
+    text-align: center;
+  float: none;
+  position: absolute;
+  top: 44%;
+  left: 48.7%;
+    margin: auto;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-family: 'open Montserrat', sans-serif;
+  z-index: 9999;   
+}
+
+    
+}
+
+
+
+
+/*--------- social media icon on navagiton bar----------*/
+
+
+/* -------------- End CODE FOR THE ANIMATION NAVIGATION BAR -----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ Pc Screens View below social media links ----------------*/
+
+
+
+/* This small bit code removes social media icons for moblie view*/
+section ul {
+    display: none;
+}
+/* This small bit code removes social media icons for moblie view*/
+
+
+@media only screen and (min-width: 1000px) {
+    
+    
+    
+    /* ---- start of social media icons top of page for the pc    -----*/
+ section ul {
+     
+     z-index: 9999;
+    display: flex;
+    right: 0px;
+    margin: 16.5px 14px 0px 20px;
+    position: fixed
+        
+}
+
+section ul li {
+    
+    list-style: none;
+}
+    
+    section ul li i {
+        color: black;
+    text-decoration: none;
+    }  
+    
+
+section ul li a{
+    
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    background: ;
+    text-decoration: none;
+    color: black; /* or #262626 */
+    margin: 0 10px;
+    transition: .5s;
+}
+
+section ul li a span {
+    
+    position: absolute;
+    transition: transform .5s;
+}
+
+/* ------ Top Black Line Below-------  */
+
+section ul li a span:nth-child(1),
+section ul li a span:nth-child(3) {
+    
+    width: 100%;
+    height: 1px;
+    background: black;  /* or #262626 */
+}
+
+section  ul li a span:nth-child(1){
+    
+    top: 0;
+    left: 0;
+    transform-origin: right;
+}
+
+section ul li a:hover span:nth-child(1){
+    
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+   
+}
+
+section ul li a span:nth-child(3){
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+}
+
+section ul li a:hover span:nth-child(3){
+    
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+   
+}
+ 
+/* ------ bottom Black Line below --------  */
+
+
+section ul li a span:nth-child(2),
+section ul li a span:nth-child(4) {
+    
+    width: 1px;
+    height: 100%;
+    background: black;
+}
+
+section ul li a span:nth-child(2){
+    top: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+section ul li a:hover span:nth-child(2){
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform .5s;
+   
+}
+
+section ul li a span:nth-child(4){
+    
+    top: 0;
+    right: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+    
+section ul li a:hover span:nth-child(4){
+    
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s;
+   
+}
+
+ 
+    
+}
+
+
+
+
+
+@media only screen and (device-width: 768px){
+
+section ul {
+     z-index: 9999;
+    display: flex;
+    right: 0px;
+    margin: 16.5px 14px 0px 20px;
+    position: fixed
+}
+
+section ul li {
+    list-style: none;
+}
+
+section ul li a{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    background: ;
+    text-decoration: none;
+    color: black; /* or #262626 */
+    margin: 0 9px;
+    transition: .5s;
+}
+
+section ul li a span {
+    position: absolute;
+    transition: transform .5s;
+}
+
+/* ------ Top Black Line Below-------  */
+
+section ul li a span:nth-child(1),
+section ul li a span:nth-child(3) {
+    width: 100%;
+    height: 1px;
+    background: black;  /* or #262626 */
+}
+
+section  ul li a span:nth-child(1){
+    top: 0;
+    left: 0;
+    transform-origin: right;
+}
+
+section ul li a:hover span:nth-child(1){
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+   
+}
+
+section ul li a span:nth-child(3){
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+}
+
+section ul li a:hover span:nth-child(3){
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+   
+}
+ 
+/* ------ bottom Black Line below --------  */
+
+
+section ul li a span:nth-child(2),
+section ul li a span:nth-child(4) {
+    width: 1px;
+    height: 100%;
+    background: black;
+}
+
+section ul li a span:nth-child(2){
+    top: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+section ul li a:hover span:nth-child(2){
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform .5s;
+   
+}
+
+section ul li a span:nth-child(4){
+    top: 0;
+    right: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+section ul li a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s;
+   
+}
+
+ 
+    
+}
+
+
+
+
+
+
+
+/*------------------ End of pc code  for social media icons---------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------slideshow frontpage automatic animation ------------------------------ */
+
+
+
+/*------------------slideshow frontpage automatic animation-----------------------------*/
+
+
+
+
+
+.load{
+    animation: slide 2s;
+}
+.slider-21{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: vh;
+    animation: slide 30s infinite;  
+}
+.content-21{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.principal h1{
+  
+ 
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url('https://source.unsplash.com/RyRpq9SUwAU/1600x900');
+    }
+    20%{
+        background-image: url("https://source.unsplash.com/1600x900/?musi");
+    }
+    20.01%{
+        background-image: url("https://source.unsplash.com/1600x900/?sea");
+    }
+    40%{
+        background-image: url("https://source.unsplash.com/1600x900/?tree");
+    }
+    40.01%{
+        background-image: url("https://source.unsplash.com/1600x900/?dog");
+    }
+    60%{
+        background-image: url("https://source.unsplash.com/1600x900/?cat");
+    }
+    60.01%{
+        background-image: url("https://source.unsplash.com/1600x900/?nature");
+    }
+    80%{
+        background-image: url("https://source.unsplash.com/1600x900/?boss");
+    }
+    80.01%{
+        background-image: url("https://source.unsplash.com/1600x900/?cat");
+    }
+    100%{
+        background-image: url("https://source.unsplash.com/1600x900/?music");
+    }
+}
+
+
+
+
+@media only screen and (min-width: 562px) {
+
+  .principal h1{
+  
+ 
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+}
+
+
+@media only screen and (device-width: 320px) {
+
+  .principal h1{
+  
+ 
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+}
+
+
+/* this is for ipad */
+@media only screen and (device-width: 768px) {
+    
+  .principal h1{
+  
+ 
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+} 
+    
+/* this is for ipad pro */
+@media only screen and (device-width: 1024px){
+    
+  .principal h1{
+  
+ 
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+}
+
+
+/*------------------slideshow frontpage automatic animation------------------------------ */
+
+
+
+/*------------------slideshow frontpage automatic animation------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+              
+/*------------- HOMEPAGE infomation   ----------------------------- 
+
+
+
+
+------------- Homepageinfo  -----------------------------*/
+        
+        
+
+.text-underslider {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.text-underslider h1 {
+    
+    margin:  auto;
+      font-family: 'open Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+
+.text-underslider p {
+    font-family: 'open Montserrat', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 550;
+   margin-left:20%;
+    margin-right: 20%;
+}
+
+  
+    
+
+
+
+  
+   
+              
+/*------------- HOMEPAGE infomation   ----------------------------- 
+
+
+
+
+------------- Homepageinfo  -----------------------------*/
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------- HOMEPAGE slider to show of artists on the label  ----------------------------- */
+
+
+
+
+/*------------- HOMEPAGE slider to show of artists on the label  ----------------------------- */
+
+
+
+.carousel {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    width: 100vw;
+    height:100vh;
+ 
+}
+
+.carousel .slider {
+
+    position: relative;
+    display: block;
+    overflow: hidden;
+    
+
+}
+
+.carousel .slider-for {
+    position: absolute;
+    display: block;
+    width: 100%;
+    width: 100vw;
+  
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+   
+      
+}
+
+.carousel .slider-for .slick-list {
+    position: relative;
+}
+
+.carousel .slider-for .slick-list .slick-track {
+    position: relative;
+    
+}
+
+.carousel .slider-for .slick-list .slick-track .slick-slide {
+    position: relative;
+    
+}
+
+.carousel .slider-for .slick-list .slick-track .slick-slide .slick-slide div .item {
+   position: relative; 
+    display: block;
+    width: 100%;
+    width: 100vw;
+    height: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: absolute;
+    background-size: cover;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -ms-background-size: cover !important;
+    -o-background-size: cover !important;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: url(resources.svg#desaturate);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    opacity: 0.15;
+        
+
+}
+
+.carousel .slider-nav {
+    position: relative;
+    display: block;
+    top: 65%;
+    transform: translateY(-50%);
+  
+    z-index: 1;
+    
+}
+
+.carousel .slider-nav .slick-list {
+    position: relative;
+    
+}
+
+.carousel .slider-nav .slick-list .slick-track {
+    position: relative;
+    
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide {
+    position: relative;
+    outline: 0px none;
+    outline: 0px;
+    
+   
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div {
+    position: relative;
+   
+   
+}
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item {
+    position: relative;
+    display: block;
+
+    
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content {
+    position: relative;
+    display: block;
+        
+    height: 75%;
+    height: 75vh;
+    margin: 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: absolute;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -ms-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.14);
+}
+@media screen and (max-device-width: 502px) {
+    
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content {
+    position: relative;
+    display: block;
+  
+    height: 70%;
+    height: 70vh;
+    margin: 10px;
+
+  
+  
+}
+}
+
+@media screen and (device-width: 320px) {
+    
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content {
+    position: relative;
+    display: block;
+  
+    height: 80%;
+    height: 80vh;
+    margin: 10px;
+ 
+  
+  
+}
+}
+
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:before {
+   content: "";
+   display: block;
+   background: linear-gradient(180deg, rgba(86,97,107,0) 0%, rgba(32,51,69,0.85) 100%);
+   opacity: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: -1px;
+   
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.5));
+    color: #ffffff;
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number:after {
+    vertical-align: middle;
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number:after {
+    display: inline-block;
+    content: "";
+    height: 0.133em;
+    margin-top: -0.2em;
+    background: white;
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number:before {
+    width: 0;
+    margin-left: 0;
+    
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number:after {
+    width: 3em;
+    margin-left: 1em;
+        
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .body {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    right: 2em;
+    color: #ffffff;
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .location,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .headline {
+    position: relative;
+    bottom: 1.2em;
+    cursor: default;
+    color: #ffffff
+}
+@media screen and (max-device-width: 502px) {
+    .carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .location,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .headline {
+    position: relative;
+    bottom: 1.8em;
+    cursor: default;
+    color: #ffffff
+}
+}
+
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .number:after,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .location,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .headline,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .link {
+    transition: 375ms ease-in-out;
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .location {
+    font-weight: 100;
+    margin-bottom: 2.7em;
+    transition-delay: 60ms;
+}
+@media screen and (max-device-width: 502px) {
+   .carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .location {
+    font-weight: 100;
+    margin-bottom: 6em;
+    transition-delay: 60ms;
+} 
+}
+
+@media screen and (max-width: 992px) {
+    .carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .location {
+       font-size: 0.8em;
+        
+    }   
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .headline {
+    font-family: ;
+    font-size: 2.867em;
+    transition-delay: 50ms;
+    color: #ffffff;
+    letter-spacing: -1px;
+}
+
+@media screen and (min-width: 480px) {
+    .carousel {
+        margin-top: -100px;
+        margin-bottom: -100px;
+    }
+    
+    .carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .headline {
+    font-family: ;
+    font-size: 1m;
+    transition-delay: 50ms;
+    color: #ffffff;
+    letter-spacing: -1px;
+}
+    .carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .location {
+    font-weight: 100;
+    margin-bottom: 6.5em;
+    transition-delay: 60ms;
+        
+    }
+    
+      .carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .location,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .headline {
+    position: relative;
+    bottom: 2em;
+    cursor: default;
+    color: #ffffff
+}
+    
+}
+
+
+@media screen and (max-device-width 992px) {
+    .carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .headline {
+        font-size: 1.8em;
+    }    
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .link {
+    display: inline-block;
+    background: black;
+    color: #ffffff;
+    padding: 0.7em;
+    font-size: 1.2em;
+    opacity: 0;
+    position: absolute;
+    bottom: -4em;
+    pointer-events: none;
+    transition-delay: 25ms;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content .link {
+        font-size: 1.4em;
+    }
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide.slick-current div .nav-item .content:before {
+    opacity: 1;
+    
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .number:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .number:after,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .location, 
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .headline,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .link,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover .number:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover .number:after,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover .location,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover .headline,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover .link {
+    transition: 500ms ease-in-out;
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .number:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .number:before,
+.carousel .slider-nav .slick-list .slick-track .slick-slide.slick-current div .nav-item .content .number:before {
+    width: 3em;
+    margin-right: 1em;
+}
+
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .number:after,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .number:after,
+.carousel .slider-nav .slick-list .slick-track .slick-slide.slick-current div .nav-item .content .number:after {
+    width: 0;
+    margin-right: 0;
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .location,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover .location,
+.carousel .slider-nav .slick-list .slick-track .slick-slide.slick-current div .nav-item .content .location {
+    transition-delay: 0;
+    bottom 4em;
+}
+
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .headline,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover .headline,
+.carousel .slider-nav .slick-list .slick-track .slick-slide.slick-current div .nav-item .content .headline {
+    transition-delay: 100ms;
+    bottom 1.5em;
+}
+
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content.hover .link,
+.carousel .slider-nav .slick-list .slick-track .slick-slide div .nav-item .content:hover .link,
+.carousel .slider-nav .slick-list .slick-track .slick-slide.slick-current div .nav-item .content .link {
+    
+    bottom: -0;
+    opacity: 1;
+    transition-delay: 250ms;
+    pointer-events: auto;
+}
+
+.carousel .navigation {
+   
+    position: absolute;
+    display: block;
+    width: 86px;
+    height: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4px;
+    z-index: 2;
+    
+}
+
+
+.carousel .navigation .back,
+.carousel .navigation .forward {
+   
+    font-family: ;
+    background-color: black;
+    color: #ffffff;
+    width: 56px;
+    height: 48px;
+    border: none;
+    font-size: 32px;
+    margin: 3px 0;
+    cursor: pointer;
+    outline: 0px none;
+    outline: 0px 
+    
+}
+
+.carousel .navigation .back.slick-disabled,
+.carousel .navigation .forward.slick-disabled {
+    pointer-events: none;
+    background-color: #111;
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .carousel .navigation {
+        right: 0;
+   
+    }
+       
+}
+
+
+  
+@media screen and (min-width: 1350px) {
+    
+  .carousel {
+        margin-top: -200px;
+        margin-bottom: -200px;
+    }
+
+}
+
+@media screen and (max-width: 1349px) {
+    .carousel {
+        margin-top: -180px;
+        margin-bottom: -180px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+      .carousel {
+        margin-top: -90px;
+        margin-bottom: -90px;
+    }
+}
+
+@me2dia screen and (max-width: 320px) {
+      .carousel {
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+}
+
+
+/*------------- HOMEPAGE slider to show of artists on the label  ----------------------------- */
+
+
+
+
+/*------------- HOMEPAGE slider to show of artists on the label  ----------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   /*---------------- HOMEPAGE artist showcase for youtube videos    -------------->
+   
+     
+   <!---------------- HOMEPAGE artist showcase for youtube videos    --------------*/
+   
+   
+
+
+
+
+.container-44 {
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  flex-direction: column;
+}
+ 
+ 
+        
+.timeline {
+  width: 100%;
+     
+  background-color: #fff;
+  box-shadow: 0 5px 25px 5px rgba(0, 0, 0, .2);
+}
+.timeline .swiper-container {
+height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.timeline .swiper-wrapper {
+    
+  transition: 2s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.2s;
+}
+.timeline .swiper-slide {
+   
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+    
+}
+.timeline .swiper-slide::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: -115%;
+  bottom: -10%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, .7);
+  border-radius: 100%;
+}
+.timeline .swiper-slide-content {
+    
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  max-width: 310px;
+  right: 50%;
+  top: 0%;
+  transform: translate(50%, 0);
+  font-size: 12px;
+  z-index: 2;
+}
+.timeline .swiper-slide .timeline-year {
+  display: block;  
+  font-size: 22px !important;
+  margin-bottom: 50px;
+  transform: translate3d(20px, 0, 0);
+  color: white;
+  font-style: italic;
+  font-weight: 300;
+  opacity: 0;
+  transition: 0.2s ease 0.4s;
+}
+
+.timeline .swiper-slide .timeline-title {
+  font-weight: 800;
+  font-size: 54px !important;
+  margin: 0 0 30px;
+  opacity: 0;
+  transform: translate3d(20px, 0, 0);
+  transition: 0.2s ease 0.5s;
+}
+.timeline .swiper-slide .timeline-text {
+  line-height: 1.8;
+  opacity: 0;
+  transform: translate3d(20px, 0, 0);
+  transition: 0.2s ease 0.6s;
+    font-size: 14px;
+}
+.timeline .swiper-slide-active .timeline-year {
+    margin-top: 10px;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 0.4s ease 1.6s;
+     
+}
+.timeline .swiper-slide-active .timeline-title {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 0.4s ease 1.7s;
+}
+.timeline .swiper-slide-active .timeline-text {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 0.4s ease 1.8s;
+}
+.timeline .swiper-pagination {
+    
+  right: 15% !important;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  z-index: 1;
+}
+.timeline .swiper-pagination::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: rgba(255, 255, 255, .2);
+}
+.timeline .swiper-pagination-bullet {
+    
+  width: auto;
+  height: auto;
+  text-align: center;
+  opacity: 1;
+  background: transparent;
+  color: white;
+  margin: 15px 0 !important;
+  position: relative;
+}
+.timeline .swiper-pagination-bullet::before {
+    
+  content: "";
+  position: absolute;
+  top: 6.5px;
+  left: -32.5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: white;
+  transform: scale(0);
+  transition: 0.2s;
+}
+.timeline .swiper-pagination-bullet-active {
+  color: blackl;
+}
+.timeline .swiper-pagination-bullet-active::before {
+  transform: scale(1);
+}
+.timeline .swiper-button-next, .timeline .swiper-button-prev {
+   
+  background-size: 0px 0px;
+  top: 6.5%;
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  z-index: 2;
+  transition: 0.2s;
+     
+ 
+}
+.timeline .swiper-button-prev {
+    color: white;
+    font-size: 40px;
+  left: 8%;
+  ;
+
+}
+.timeline .swiper-button-prev:hover {
+  transform: translateX(-3px);
+}
+.timeline .swiper-button-next {
+    
+     color: white;
+    font-size: 40px;
+  right: 8%;
+    
+}
+.timeline .swiper-button-next:hover {
+  transform: translateX(3px);
+}
+
+
+
+.button11{
+    cursor:pointer;
+    width: 160px;
+    z-index: 999;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-family: ;
+    font-weight: bold;
+    margin-top: 40px;
+    margin: 0 auto;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50px;
+    background: black;
+    font-weight: bold;
+     text-decoration: none;
+    text-align: center;
+}
+
+.button11 .fa {
+    margin-left: 9px;
+   
+}
+
+    
+.button11:hover, .button11:focus{
+      z-index: 999;
+    cursor:pointer;
+    background: transparent;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid white;
+    transition-duration: 5ms ;
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+ 
+
+    
+  .timeline .swiper-slide::after {
+    right: -30%;
+    bottom: -8%;
+    width: 240px;
+    height: 50%;
+    box-shadow: -230px 0 150px 50vw rgba(0, 0, 0, .7);
+  }
+  .timeline .swiper-slide-content {
+    right: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 330px;
+    
+    font-size: 11px;
+    text-align: right;
+  }
+  .timeline .swiper-slide .timeline-year {
+    margin-bottom: 0;
+    font-size: 32px;
+  }
+  .timeline .swiper-slide .timeline-title {
+    font-size: 46px;
+    margin: 0;
+  }
+  .timeline .swiper-pagination {
+    display: flex;
+  }
+  .timeline .swiper-button-prev {
+    top: 20%;
+    left: auto;
+    right: 15.8%;
+    transform: rotate(90deg) translate(0, 10px);
+  }
+  .timeline .swiper-button-prev:hover {
+    transform: rotate(90deg) translate(-3px, 10px);
+  }
+  .timeline .swiper-button-next {
+    top: auto;
+    bottom: 20%;
+    right: 15.8%;
+    transform: rotate(90deg) translate(0, 10px);
+  }
+  .timeline .swiper-button-next:hover {
+    transform: rotate(90deg) translate(3px, 10px);
+  }
+  
+   .timeline .swiper-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+} 
+    
+}
+
+
+  
+
+
+@media screen and (max-width: 320px) {
+   .timeline .swiper-container {
+  height: 130vh;
+  width: 100%;
+  position: relative;
+} 
+}
+
+
+
+@media screen and (min-width: 330px) {
+          .timeline .swiper-container {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+} 
+}
+
+
+   /*---------------- HOMEPAGE artist showcase for youtube videos    -------------->
+   
+     
+   <!---------------- HOMEPAGE artist showcase for youtube videos    --------------*/
+    
+
+
+
+
+
+
+
+
+
+
+/*-------------------- btn to scroll down page 0----------------------------- */ 
+
+
+
+
+/*-------------------- btn to scroll down page 0----------------------------- */ 
+
+
+
+@media screen and (min-width: 700px) {
+
+section {
+  position: relative;
+  width: 100%;
+  height: 95.8%;
+}
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%;
+
+}
+
+
+#thanks::after {
+  content: none;
+}
+#thanks div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.demo a {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: black;
+  font : ;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+
+
+#section01 a {
+  padding-top: 60px;
+}
+#section01 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 5px solid  white;
+  border-bottom: 5px solid  white;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+
+
+#section02 a {
+  padding-top: 60px;
+}
+#section02 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid  black;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#section02 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 3px solid  black;
+  border-bottom: 3px solid  black;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+
+
+#section03 a {
+  padding-top: 60px;
+}
+#section03 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid  white;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#section03 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 3px solid  white;
+  border-bottom: 3px solid  white;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+#section03 a span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: sdb03 3s infinite;
+  animation: sdb03 3s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+#section04 a {
+  padding-top: 60px;
+}
+#section04 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 5px solid  black;
+  border-bottom: 5px solid  black;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb04 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+
+
+
+
+
+#section05 a {
+  padding-top: 70px;
+}
+#section05 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 5px solid  black;
+  border-bottom: 5px solid  black;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+}
+
+
+/*-------------------- btn to scroll down page 0----------------------------- */ 
+
+
+
+
+/*-------------------- btn to scroll down page 0----------------------------- */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------exclusive services homepage----------------------------- */
+
+
+
+/*------------------exclusive services homepage------------------------------ */
+
+
+
+
+
+
+
+
+
+
+.services-44 {
+    margin-top: 435px;
+ 
+    text-align: center;
+    
+}
+.services-44 h1 {
+    font-family: 'open Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+
+.row-44 h3 {
+    font-family: 'open Montserrat', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.row-44 p {
+ font-family: 'open Montserrat', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+
+.services-44 h1:after {
+    font-family: 'open Montserrat', sans-serif;
+    content: "";
+    background: black;
+    display: block;
+    width: 110px;
+    height: 8px;
+    margin: 30px auto;
+}
+.text-center-44 {
+    float: right;
+   padding: 20px;
+    
+  
+}
+.move {
+    margin-bottom: 20px;
+}
+.icon-44 {
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+.col-md-3:hover {
+    box-shadow: 5px 7px 9px -11px black;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .text-center-44 {
+    float: right;
+   padding: 20px;
+    margin-bottom: 200px;
+}
+    
+}
+
+@media only screen and (min-width: 768px) {
+  .text-center-44 {
+    float: right;
+   padding: 10px;
+ margin-bottom: 60px;
+}  
+}
+
+
+
+/*------------------exclusive services homepage----------------------------- */
+
+
+
+/*------------------exclusive services homepage------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------DRAKE TEXT  homepage ---------------------------------------------------*/
+
+
+
+/*-----------------DRAKE TEXT  homepage ---------------------------------------------------
+  
+  
+.text20 {
+    background: black;
+margin-top: 100px;
+  
+    
+}
+
+
+h1.knockout-text-one, h1.knockout-text-two {
+   
+    color: white;
+    margin: 0;
+    padding:  0;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -o-text-fill-color: transparent;
+    -o--webkit-background-clip: text;
+    font-size: 28vw;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.knockout-text-one {
+    background: url(img/luke.jpg)no-repeat;
+    background-position:center;
+
+
+}
+
+
+
+@media only screen and (min-width:600px) {
+  
+.text20 {
+    background: black;
+margin-top: 100px;
+  
+    
+}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+.text20 {
+    background: black;
+margin-top: 40px;
+  
+    
+}
+
+}
+
+
+
+
+
+
+
+
+
+/*-----------------DRAKE TEXT  homepage ---------------------------------------------------*/
+
+
+
+/*-----------------DRAKE TEXT  homepage ---------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------pictures of artests on the homepage ---------------------------------------------------*/
+
+
+
+/*-----------------pictures of artests on the homepage ---------------------------------------------------*/
+
+.gallery-section-11 {
+ 
+}
+
+
+
+
+.img-22 {
+    
+    border: 2px solid black;
+  width:50%; 
+   
+ float: left;
+}  
+
+
+.gallery-section-11 .gallery{
+    width:100%;
+    margin-top: 50px;
+   
+}
+
+.gallery-section-11 .image-11{
+      
+    height: 26vh;
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-section-11 .image-11 img{
+   
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.gallery-section-11 .image-11:hover img{
+  transform: scale(1.4) rotate(15deg) ;
+}
+
+@media screen and (min-width:960px) {
+  .gallery-section-11 .image-11{
+    flex: 33.33%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .gallery-section-11 .image-11{
+    flex: 50%;
+  }
+    .gallery-section-11 .image-11{
+      
+    height: 30vh;
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+}
+
+@media screen and (min-width:480px) {
+  .gallery-section .image-11{
+    flex: 100%;
+  }
+}
+
+
+
+@media screen and (min-width:1025px) {
+    
+    .gallery-section-11 .image-11{
+      
+    height: 32vh;
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+    
+    
+   .gallery-section-11 .image-11{
+    flex: 33.33%;
+  }
+    
+.inner-width{
+  width: 100%;
+  max-width: px;
+  margin: auto;
+;
+}
+
+
+
+.gallery-section-11 .gallery{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.gallery-section-11 .image-11{
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-section-11 .image-11  {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.gallery-section-11 .image-11:hover {
+  transform: scale(2) rotate(360deg);
+}
+
+}
+
+
+/*-----------------pictures of artests on the homepage ---------------------------------------------------*/
+
+
+
+/*-----------------pictures of artests on the homepage ---------------------------------------------------*/
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------slideshow frontpage with text boxes------------------------------ */
+
+
+
+/*------------------slideshow frontpage with text boxes------------------------------ 
+
+
+
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 70vh;
+  width: 100%;
+  
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+}
+
+.slide .content-1 {
+    
+  position: absolute;
+  bottom: 40px;
+  left: -600px;
+  opacity: 0;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 25px;
+}
+
+.slide .content-1 h1 {
+    font-family: 'open Montserrat', sans-serif;
+  margin-bottom: 10px;
+    margin: 1px;
+}
+
+.slide.current .content-1 {
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+  position: absolute;
+  top: 35%;
+  right: 15px;
+}
+
+.buttons button#prev {
+  position: absolute;
+  top: 35%;
+  left: 15px;
+}
+
+.buttons button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 15px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  .slide .content-1 {
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.current .content-1 {
+    transform: translateY(-300px);
+  }
+}
+
+
+
+
+
+
+/* Backgorund Images 
+ 
+.slide:first-child {
+  background: url('https://source.unsplash.com/RyRpq9SUwAU/1600x900') no-repeat
+    center top/cover;
+}
+.slide:nth-child(2) {
+  background: url('https://source.unsplash.com/BeOW_PJjA0w/1600x900') no-repeat
+    center top/cover;
+}
+.slide:nth-child(3) {
+  background: url('https://source.unsplash.com/TMOeGZw9NY4/1600x900') no-repeat
+    center top/cover;
+}
+.slide:nth-child(4) {
+  background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+    center top/cover;
+}
+.slide:nth-child(5) {
+  background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat
+    center top/cover;
+} 
+.slide:nth-child(6)  {
+  background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat
+    center center/cover;
+}
+
+
+
+/*------------------slideshow frontpage  with text boxes------------------------------ */
+
+
+
+/*------------------slideshow frontpage  with text boxes------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------    contact.html   ------------------------------------*/
+
+/*------------------------- contact form on contact.html -------------------------*/
+
+
+
+
+
+
+
+
+.contact-section {
+   /* background: url("https://source.unsplash.com/1600x900/?world,sunset") no-repeat center; */
+    background-size: cover;
+    padding: 40px 0 ;
+    height: 700px;
+}
+
+.contact-section h1 {
+    font-size: 40px;
+    font-family: 'open Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+.border{ 
+    width: 100px;
+    height: 10px;
+    background: black;
+    margin: 40px auto;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+     font-family: 'open Montserrat', sans-serif;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: black;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+    
+}
+
+.contact-form-text:focus{
+   box-shadow: 0 0 10px 4px #555; 
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+    font-family: 'open Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid black;
+    float: right;
+    border: 0;
+    background: black;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    border: 2px solid black;
+    background: white;
+    color: black;
+}
+
+
+
+
+
+/*-------------------------   contact.html    ------------------------------------*/
+
+/*------------------------- contact form on contact.html -------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------- artist page profile cards ------------------*/
+
+
+
+
+/*-------------------- artist page profile cards ------------------*/
+
+
+
+
+
+
+
+/*----------- ARTISTS PROFILE PAGE --------------------------*/
+
+/*----------- ARTISTS PROFILE PAGE --------------------------*/
+
+/*----------- ARTISTS PROFILE PAGE --------------------------*/
+
+
+
+/* -----------------profile cards-------------------------- */
+
+.xop-section {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 6% 2%;
+        
+
+}
+
+.xop-grid {
+	margin: 60px auto;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 90%;
+    
+}
+
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after, .xop-box:before {
+	content: '';
+	display: table;
+    padding: 0px;
+}
+
+.xop-grid li {
+	width: 100%;
+	height: 588px;
+	display: inline-block;
+	margin: 0 auto;
+    padding-bottom: 50px;
+    
+}
+
+.xop-box a{
+    text-decoration: none;
+}
+
+
+.xop-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+    
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+
+
+.xop-img-1 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("img/lukemistfinger.jpg");
+    background-position: center;
+}
+
+.xop-img-2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(img/bloke.jpg);
+     background-position: center;
+}
+
+.xop-img-3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("https://source.unsplash.com/random");
+     background-position: center;
+}
+
+.xop-img-4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("https://source.unsplash.com/random");
+     background-position: center;
+}
+
+.xop-info {
+    margin:  -80px auto;
+	width: inherit;
+	height: inherit;
+}
+
+.xop-info h3 {
+   
+    letter-spacing: 6px;
+	    font-family: 'open Montserrat', sans-serif;
+	font-weight: 800;
+	color: white;
+	font-size: 42px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height: 1.3;
+}
+
+.xop-info p {
+    
+	    font-family: 'open Montserrat', sans-serif;
+	color: white;
+	padding: 22px 7px;
+	margin: -25px 30px;
+	font-size: 34px;
+    font-weight: 400;
+	line-height: 1.2;
+}
+
+
+
+/* -----------------profile cards-------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------read more btn -----------------*/
+
+
+
+
+
+.middle {
+    
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+
+.btn {
+     font-family: 'open Montserrat', sans-serif;
+    font-size: 28px;
+     border-radius: 200px;
+    color: black;
+    background: none;
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 250px;
+    margin: 0.3rem;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+
+ .yo a {
+ color: white;
+     font-weight: 600;
+}
+
+.btn:hover a{
+    
+    background: black;
+    
+}
+
+.btn::before{
+    
+    border-radius: 200px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: -1;
+    transition: transform 0.5s;
+    
+   
+}
+
+.btn1::before {
+     
+transform: scaleX(0);
+}
+
+.btn2::before {
+    
+transform: scaleY(0);
+}
+
+.btn1:hover::before{
+     
+    transform: scaleX(1)
+}
+
+.btn2:hover::before{
+    
+    transform: scaleY(1)
+}
+
+
+
+/* ---------------read more btn -----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------social media icons on the profile artists page */
+
+
+.middle-2{
+  position: absolute;
+  top: 78%;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.btn-2{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: #f1f1f1;
+  margin: 15px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: black;
+  overflow: hidden;
+  position: relative;
+}
+.btn-2 .i{
+  line-height: 68px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.btn-2:hover .i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.btn-2::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: black;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.btn-2:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+
+
+
+
+/*-----------social media icons on the profile artists page */
+
+
+
+
+
+/* this is for galaxy s5  & nexus 5 */
+@media only screen and (device-width: 360px)  {
+  
+
+.middle {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+    
+    
+}
+
+
+
+
+/* iphone 5/SE */
+@media only screen and (device-width: 320px)  {
+  
+
+.middle {
+    
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+   
+   
+.middle-2{
+  position: absolute;
+  top: 82%;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+} 
+    
+
+.xop-info h3 {
+   
+    letter-spacing: 6px;
+	    font-family: 'open Montserrat', sans-serif;
+	font-weight: 800;
+	color: white;
+	font-size: 45px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height: 1.3;
+}    
+    
+    
+}
+
+
+/* iphone 6/7/8*/
+@media only screen and (device-width: 375px) {
+    
+    
+.middle {
+    
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+    
+    
+    
+    
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1025px) {
+    
+   
+.xop-section {
+	max-width: 2000px;
+	margin: 0 auto;
+	padding: 6% 2%;
+}
+
+.xop-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after, .xop-box:before {
+	content: '';
+	display: table;
+}
+
+.xop-grid li {
+	width: 378px;
+	height: 628px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+
+
+
+.xop-info {
+    margin:  -80px auto;
+	width: inherit;
+	height: inherit;
+}
+
+.xop-info h3 {
+   
+    letter-spacing: 6px;
+	    font-family: 'open Montserrat', sans-serif;
+	font-weight: 800;
+	color: white;
+	font-size: 33px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height: 1.3;
+}
+
+.xop-info p {
+    
+	    font-family: 'open Montserrat', sans-serif;
+	color: white;
+	padding: 22px 7px;
+	margin: -25px 30px;
+	font-size: 30px;
+    font-weight: 400;
+	line-height: 1.2;
+}
+
+    
+    
+ /*social media icons*/   
+    
+    
+.middle-2{
+  position: absolute;
+  top: 88%;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+    
+    
+  /* READ MORE BTN*/  
+    
+    
+.middle {
+    
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+    
+    
+}
+   
+   
+    
+    
+
+
+/*----------- ARTISTS PROFILE PAGE --------------------------*/
+
+/*----------- ARTISTS PROFILE PAGE --------------------------*/
+
+/*----------- ARTISTS PROFILE PAGE --------------------------*/
+
+
+/*-------------------- artist page profile cards ------------------*/
+
+
+
+
+/*-------------------- artist page profile cards ------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----  Release page  6 box-------------------- */
+
+/*----  Release page 6 box -------------------- 
+
+
+
+
+
+
+.section-55 {
+ font-family: 'open Montserrat', sans-serif;
+    margin: 0 0 6em;
+    padding: 1em;
+    
+}
+
+.container-55 h3{
+font-family: 'open Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1.6rem;
+	text-align: center;
+    line-height: 0px;
+    
+ 
+   
+}
+
+
+.project {
+    display: block;
+	width: 100%;
+	text-decoration: none;
+	margin: 1em 0;
+    cursor: pointer;
+    margin-top: 80px;
+}
+figure {
+  
+	margin: 0;
+	padding: 0;
+}
+.project figure img {
+	width: 100%;
+	display: block;
+	object-fit: cover;
+	height: 300px;
+}
+.project figcaption {
+	padding: 1em;
+	background:white;
+	color: white;
+}
+.project h3 {
+	color: black;
+   margin-top: 40px
+    
+}
+
+/*
+
+When the browser is 960px or larger.
+
+
+
+@media screen and (min-width: 768px) {
+	.wrapper-55 {
+		max-width: 1400px;
+		margin: 0 auto;
+        margin-top: -170px;
+       
+	}
+	.container-55 {
+       
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1em;
+	}
+	.project:nth-child(1) {
+		grid-column: 1 / span 3;
+	}
+	.project {
+		width: 100%;
+		height: 300px;
+		text-decoration: none;
+        margin: 0;
+	}
+    
+    figure {
+          border: 2px solid black;
+    }
+	.project figure {
+		position: relative;
+        overflow: hidden;
+	}
+	.project figure img {
+		position: relative;
+        z-index: 1;
+        transition: transform 0.4s;
+	}
+	.project figure:hover img {
+		transform: translateY(-90px);
+	}
+
+	.project figcaption {
+		position: absolute;
+       
+		left: 0;
+		bottom: 0;
+		padding: 20px;
+		height: 90px;
+		width: 100%;
+	}
+}
+
+
+
+
+/*----  Release page,  6 box-------------------- */
+
+/*----  Release page, 6 box -------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/*------------ release page, 4 boxes for artist ----------*/
+
+
+
+
+/*------------ release page, 4 boxes for artist ----------*/
+
+
+
+.new-albums {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    font-family: 'open Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #111;
+}
+
+
+.line2 {
+      width: 100px;
+    height: 10px;
+    background: black;
+    margin: 30px auto  ;
+     
+}
+
+
+
+.xop-section-1{
+   padding-top: 25px;
+   padding-bottom: 50px;
+   
+}
+
+.xop-grid-1 {
+ 
+	
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.xop-grid-1:after {
+	clear: both;
+}
+
+.xop-grid-1:after, .xop-box-1:before {
+    
+	content: '';
+	display: table;
+}
+
+
+.xop-grid-1 li {
+	width: 320px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-box-1 {
+    border: 2px solid black;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box-1:hover {
+	transform: scale(1.05); 
+}
+
+
+.xop-img-11 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url();
+}
+
+.xop-img-22 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url();
+}
+
+.xop-img-33 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url();
+}
+
+.xop-img-44 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url();
+}
+
+.xop-info-1 {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+
+.xop-info-1 h3 {
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	color: #fff;
+	font-size: 42px;
+	margin: 0 30px;
+	padding: 80px 0 0 0;
+	line-height: 1.5;
+}
+
+.xop-info-1 p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 2;
+}
+
+
+@media only screen and (device-width: 320px) {
+   
+.xop-grid-1 li {
+	width: 280px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+ 
+}
+
+
+@media only screen and (device-width: 411px) {
+   
+.xop-grid-1 li {
+	width: 370px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+ 
+}
+
+
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+      
+
+       
+.xop-grid-1 li {
+	width: 430px;
+	height: 430px;
+	display: inline-block;
+	margin: 23px;
+    
+}
+    
+.xop-section-1{
+   padding-top: 25px;
+   padding-bottom: 50px;
+   
+}
+ 
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+ 
+.xop-grid-1 li {
+	width: 340px;
+	height: 340px;
+	display: inline-block;
+	margin: 15px;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1025px) {
+       
+.xop-grid-1 li {
+	width: 380px;
+	height: 380px;
+	display: inline-block;
+	margin: px;
+}
+    
+    
+.xop-section-1{
+   padding-top: 25px;
+   padding-bottom: 50px;
+   
+}
+ 
+}
+
+
+@media only screen and (min-width: 1200px) {
+       
+.xop-grid-1 li {
+	width: 280px;
+	height: 290px;
+	display: inline-block;
+	margin: 6px;
+}
+ 
+}
+
+
+@media only screen and (min-width: 1300px) {
+       
+.xop-grid-1 li {
+	width: 300px;
+	height: 320px;
+	display: inline-block;
+	margin: 6px;
+    
+}
+ 
+}
+
+
+/*------------ release page, 4 boxes for artist ----------*/
+
+
+
+
+/*------------ release page, 4 boxes for artist ----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*------- release page image block real animation  --------------*/
+    
+    
+    
+    
+     /*-------- release page image block real animation  --------------*/
+    
+
+
+
+
+
+.single-boxes {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.single-boxes span {
+    width: 10%;
+    height: 80px;
+    background: url("https://source.unsplash.com/random") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+    /*------- release page image block real animation  --------------*/
+    
+    
+    
+    
+     /*-------- release page image block real animation  --------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+/*---- relase page News responsive split screen  -------------------- 
+
+---- relase page  News responsive split screen --------------------*/
+
+.NEWS-TITLE {
+       display: flex;
+    justify-content: center;
+    text-align: center;
+     
+    margin: 0 auto;
+    font-family: 'open Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #111;
+    
+}
+
+.line {
+     width: 100px;
+    height: 10px;
+    background: black;
+    margin: 30px auto 60px;
+     
+}    
+
+
+
+
+
+.xop-container-11 {
+	display: flex;
+}
+ .xop-container-11 div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+ .xop-left {
+    height: 50vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 225, 0.10)), url("https://source.unsplash.com/random");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+
+ .xop-left a{
+    height: 50vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 225, 0.10)), url("https://source.unsplash.com/random");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+
+.xop-right {
+    height: 50vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(164, 222, 102, 0.10)), url("https://source.unsplash.com/random");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+
+
+.xop-right a {
+    height: 50vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(164, 222, 102, 0.10)), url("https://source.unsplash.com/random");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+
+
+
+.xop-left:hover, .xop-right:hover {
+	transform: scale(0.95);
+}
+
+
+.xop-left h1 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 4rem;
+}
+.xop-right h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4rem;
+}
+.xop-button {
+	border-radius: 30px;
+	color: white;
+	background-color: black;
+	padding: 1.5%;
+	margin: 0 2%;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: all 0.3s;
+	width: 110px;
+}
+.xop-button:hover {
+	background: white;
+	color: black;
+}
+
+
+
+
+.xop-left1 {
+    color: white;
+    background: black;
+    text-align: center;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+.xop-right1 {
+    color: white;
+    background: black;
+    text-align: center;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+
+   
+   
+   
+/*---- relase page News responsive split screen  -------------------- 
+
+----  relase page News responsive split screen --------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---- profile pages for artist  -------------------- 
+
+---- profile pages for artist  --------------------*/
+.header4 {
+    background-image: url(img/0114.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    border-bottom: 2px solid black;
+      box-shadow: 0 5px 5px black;
+}
+ 
+
+.row1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+#profile_pic {
+    width: 80%;
+    height: 25vh;
+    border: 2px solid black;
+    border-radius: 100% ;
+    border: 2px black;
+    box-shadow: 0 10px 5px black;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: -130px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.row1 h1 {
+    text-align: center;
+    margin-top: -130px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.row1 p {
+    text-align: center;
+     line-height: 1.7;
+}
+
+
+
+
+
+
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding-left: 10px;
+    padding-right: 10px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    text-align: center;
+	width: 40px;
+    height: 40px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding-top: 12px;
+	border-radius: 100%;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #000;
+}
+
+
+@media only screen and (min-width: 600px) {
+    
+
+
+.row1 {
+    margin-left: -3%;
+    margin-right: 5%;
+ 
+   
+    
+  
+}
+    
+#profile_pic {
+   float: left;
+    width: 42%;
+    height: 33vh;
+    border: 2px solid black;
+    border-radius: 0%;
+    border: 2px black;
+    box-shadow: 0 10px 5px black;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+     
+    
+}
+
+.row1 h1 {
+    margin-top: 3px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.row1 p {  
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+      margin-top: -200px;  
+    text-align: center;
+	width: 40px;
+    height: 40px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding-top: 12px;
+	border-radius: 100%;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #000;
+}
+
+
+.row1 h1 {
+    margin-top: 35px;
+    text-align: center;
+    
+}
+
+.row1 p {  
+    text-align: center;
+    
+}
+
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    
+.row1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    
+      
+#profile_pic {
+   float: left;
+    width: 40%;
+    height: 35vh;
+    border: 2px solid black;
+    border-radius: 0%;
+    border: 2px black;
+    box-shadow: 0 10px 5px black;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+       margin-left: 0%;
+    margin-right: 10%;
+    
+
+}
+ 
+   
+
+.row1 h1 {
+    margin-top: 55px;
+    text-align: center;
+    
+}
+
+.row1 p {  
+    text-align: center;
+    
+}
+
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  
+  margin: 0;
+  padding: 10px;
+}
+    
+    
+}
+
+@media only screen and (min-width: 1500px) {
+    
+    
+.row1 {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+    
+      
+#profile_pic {
+   float: left;
+    width: 40%;
+    height: 40vh;
+    border: 2px solid black;
+    border-radius: 0%;
+    border: 2px black;
+    box-shadow: 0 10px 5px black;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+       margin-left: 0%;
+    margin-right: 10%;
+    
+}
+ 
+.row1 h1 {
+    margin-top: 85px;
+    text-align: center;
+    padding-right: 20px;
+    
+}
+
+.row1 p {  
+    text-align: center;
+    
+}
+
+    
+.socialbtns, .socialbtns ul, .socialbtns li {
+  
+  margin: 0;
+  padding: 10px;
+}
+   
+    
+}
+
+
+
+/*---- profile pages for artist  -------------------- 
+
+---- profile pages for artist  --------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------ reopnsive timeline design for artists pages !!-----------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+.timeline1 {
+   
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 700px;
+  position: relative;
+}
+.timeline__content-title {
+  font-weight: normal;
+  font-size: 66px;
+  margin: -10px 0 0 0;
+  transition: 0.4s;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+.timeline__content-desc {
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, .7);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  line-height: 25px;
+}
+.timeline1:before {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  content: "";
+  background: rgba(255, 255, 255, .07);
+}
+@media only screen and (max-width: 767px) {
+  .timeline1:before {
+    left: 40px;
+  }
+}
+.timeline-item {
+  padding: 200px 0; /* ------------------ to change the hight on slide*/
+  opacity: 0.3;
+  filter: blur(2px);
+  transition: 0.5s;
+  box-sizing: border-box;
+  width: calc(50% - 40px);
+  display: flex;
+  position: relative;
+  transform: translateY(-80px);
+}
+.timeline-item:before {
+  content: attr(data-text);
+  letter-spacing: 3px;
+  width: 100%;
+  position: absolute;
+  color: rgba(255, 255, 255, .5);
+  font-size: 13px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  border-left: 2px solid rgba(255, 255, 255, .5);
+  top: 70%;
+  margin-top: -5px;
+  padding-left: 15px;
+  opacity: 0;
+  right: calc(-100% - 56px);
+}
+.timeline-item:nth-child(even) {
+  align-self: flex-end;
+}
+.timeline-item:nth-child(even):before {
+  right: auto;
+  text-align: right;
+  left: calc(-100% - 56px);
+  padding-left: 0;
+  border-left: none;
+  border-right: 2px solid rgba(255, 255, 255, .5);
+  padding-right: 15px;
+}
+
+.timeline-item--active {
+     /*margin-top: 200px;--------------- might be it */ 
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+}
+.timeline-item--active:before {
+  top: 50%;
+  transition: 0.3s all 0.2s;
+  opacity: 1;
+}
+.timeline-item--active .timeline__content-title {
+  margin: -50px 0 20px 0;
+}
+@media only screen and (max-width: 767px) {
+  .timeline-item {
+      
+    align-self: baseline !important;
+    width: 100%;
+    padding: 0 30px 150px 80px;
+  }
+  .timeline-item:before {
+    
+    left: 10px !important;
+    padding:0px !important;
+    top: 50px;
+    text-align: center !important;
+    width: 60px;
+    border: none !important;
+  }
+    .timeline-item {
+        padding-top: 100px; /*------------------ change hight  */
+    }
+  .timeline-item:last-child {
+      padding-top: 0px;
+    padding-bottom: 130px;
+  }
+}
+.timeline__img {
+  max-width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+}
+
+.timeline-container {
+  margin-top: 175px;
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  transition: 0.3s ease 0s;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.timeline-container:before {
+   
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+ background: rgba(0,0,0,0.6);
+  content: "";
+}
+.timeline-header {
+    
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.timeline-header__title {
+  color: #fff;
+  font-size: 58px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+.timeline-header__subtitle {
+  color: rgba(255, 255, 255, .5);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+}
+.demo-footer {
+  padding: 60px 0;
+  text-align: center;
+}
+.demo-footer a {
+  color: #999;
+  display: inline-block;
+  font-family: Cardo;
+}
+
+
+
+
+
+/*------------ reopnsive timeline design for artists pages !!-----------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------ below is for the mobile verson of the footer ! -------------------------------------------------------------------------------------------- */ 
+
+
+footer {
+    width: 100% ;
+  
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+.row {
+      display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -0px;
+    text-align: center;
+   
+}
+
+#footer-area {
+     
+    padding: 73px 0px 60px 0px;
+   margin: 0 auto;
+ 
+}
+
+.about-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-social {
+    position: fixed;
+    bottom: 0px;
+  
+}
+
+
+.single-footer h3 {
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'open Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: white;
+    
+}
+
+
+
+.link-area li {
+    padding: 5px 5px 5px 0;
+    list-style: none;
+    
+}
+
+
+.single-footer p {
+
+    text-align: center;
+    padding-top: 6px;
+    font-family: 'open Montserrat', sans-serif;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.list-inline {
+    display: flex;
+    justify-content: center;
+    width: 99%;
+}
+
+.footer-social li a {
+    
+     
+    font-size: 33px;
+    width: 62px;
+    text-align: center; 
+    display: block;
+   
+  
+    background: #000;
+    
+  
+    
+}
+
+.footer-social li a i {
+    
+    color: white;
+    padding: 8px;
+    
+}
+
+
+.footer-container-1 {
+ background: white;
+}
+
+.copyright-area {
+   
+    background:;
+    padding: 22px 0 55px 0px;
+    border-radius: 0px;
+    margin-top: -0px;
+  
+}
+
+.copyright-area p{
+       display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'open Montserrat', sans-serif;
+    font-weight: 800;
+    color: black;
+}
+
+
+
+
+@media only screen and (min-width: 760px) {
+    
+.footer-social {
+  
+    display: none;
+   
+   
+
+}
+
+.copyright-area {
+   
+    background:;
+    padding: 22px 0 25px 0px;
+    border-radius: 0px;
+    margin-top: -0px;
+  
+}
+
+   .about-text {
+    padding-left: 80px;
+       padding-right: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ 
+    
+}
+
+
+/*------------------
+footer ! -------------------------------------------------------------------------------------------- */ 
+
+
+
+
+
+
+
+
+
+
+    
+    
+/* this is for pixel 2  */
+@media only screen and (device-width: 411px)  {
+   
+
+    
+}
+
+/* google pixel xl */ 
+
+@media screen and (device-width: 411px) and (device-height: 823px){
+    
+    
+    
+}
+
+
+/* this is for iphone6/7/8+ */
+@media only screen and (device-width: 414px)  {
+    
+    
+}
+
+
+/* this is for galaxy s5  & nexus 5 */
+@media only screen and (device-width: 360px)  {
+  
+    
+    
+}
+
+/* this is for iphone X iphone6/7/8 */
+@media only screen and (device-width: 375px)  {
+    
+   
+    
+}
+/* this is for ipad */
+@media only screen and (device-width: 768px)  {
+ 
+    
+}
+
+/* this is for LG opimus*/
+@media only screen and (device-width: 384px)  {
+  
+
+    
+}
+
+    
+    

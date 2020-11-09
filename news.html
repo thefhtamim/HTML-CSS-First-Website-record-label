@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- below link is for animation nav bar js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- above link is for animation nav bar js -->
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   
+   
+    
+    
+    <header>
+       <div class="header-brand "> L o w k e y</div>
+        
+        <!--d
+        <nav>
+            <ul>
+                <il><a href="gallery.html">Gallery</a></il> 
+                 <il><a href="about.html">About L.K</a></il>  
+                  <il><a href="contact.html">Contact</a></il> 
+                     
+            </ul>
+        </nav>
+        -->
+        
+        
+        
+    
+    <!------ End Brand logo & simple nav bar  ----->
+    
+    
+    
+    
+         <ul class="footer-social list-inline">
+                          
+                          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                          <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                          
+                       </ul>
+        
+    
+    
+    
+    
+      
+   
+   
+   
+   
+ 
+   
+ 
+
+<!---------------- could be new navgation BAR ------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*---------------- could be new navgation BAR ------------------------------------------------------------------------------------------------------------------------------------>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="100" height="100">
+            <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="artists.html">Artists</a>
+    <a href="#">Label</a>
+    <a href="#">Store</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+  
+  
+  </header>
+  
+  
+  
+  
+  
+
+<!---------------- could be new navgation BAR ------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*---------------- could be new navgation BAR ------------------------------------------------------------------------------------------------------------------------------------>
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <!------------ Start IS Animation NAVIGATION BAR with javascript --------------
+   
+  
+    <nav role='navigation' id="mainnav">
+    <br><br><br>
+  <ul class="gap">
+    <li><a href="index.html">HOME</a></li>
+     <li><a href="news.html">NEWS</a></li>
+    <li><a href="artists.html">ARTISTS</a></li>
+    
+    <li><a href="#?"> LABEL</a></li>
+    <li><a href="#?">STORE</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+ 
+  </ul>
+  
+ 
+</nav> 
+
+  
+   
+     
+
+<div class="hamb">
+  <a href="#"><i class="fa fa-bars"></i></a>
+</div>
+
+
+<canvas id="bubble"></canvas>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+<script>
+  
+var w = window.innerWidth,
+    h = window.innerHeight,
+    canvas = document.getElementById('bubble'),
+    ctx = canvas.getContext('2d'),
+    rate = 60,
+    arc = 100,
+    time,
+    count,
+    size = 7,
+    speed = 20,
+    lights = new Array,
+    colors = ['#d59254','#ffffff','#1f2839','#cf7693'];
+
+canvas.setAttribute('width',w);
+canvas.setAttribute('height',h);
+
+function init() {
+  time = 0;
+  count = 0;
+
+  for(var i = 0; i < arc; i++) {
+    lights[i] = {
+      x: Math.ceil(Math.random() * w),
+      y: Math.ceil(Math.random() * h),
+      toX: Math.random() * 5 + 1,
+      toY: Math.random() * 5 + 1,
+      c: colors[Math.floor(Math.random()*colors.length)],
+      size: Math.random() * size
+    }
+  }
+} 
+
+  
+    
+    
+    /* this code is for floating bubbles 
+function bubble() {
+  ctx.clearRect(0,0,w,h);
+
+  for(var i = 0; i < arc; i++) {
+    var li = lights[i];
+    
+    ctx.beginPath();
+    ctx.arc(li.x,li.y,li.size,0,Math.PI*2,false);
+    ctx.fillStyle = li.c;
+    ctx.fill();
+    
+    li.x = li.x + li.toX * (time * 0.05);
+    li.y = li.y + li.toY * (time * 0.05);
+    
+    if(li.x > w) { li.x = 0; }
+    if(li.y > h) { li.y = 0; }
+    if(li.x < 0) { li.x = w; }
+    if(li.y < 0) { li.y = h; }
+  }
+  if(time < speed) {
+    time++;
+  }
+  timerID = setTimeout(bubble,1000/rate);
+}
+init();
+bubble(); 
+*/
+    
+    
+    
+    
+
+//navigation (this is my code)
+var animation = 'easeOutCubic';
+    delay     = 60;
+
+$(document)
+  .on('click', '.fa-bars', function(){
+    var i = 0;
+    $('nav').before($('#bubble'));
+    $('#bubble').fadeIn();
+    $('#mainnav').find('li').each(function(){
+      var that = $(this);
+      i++;
+      (function(i, that){
+          setTimeout(function(){
+            that
+              .animate(
+                { 'left'   : '20px' }, 
+                { duration : 50, 
+                  easing   : animation })
+              .fadeIn({queue: false});
+          }, delay * i)
+      }(i, that))
+    }); 
+    $('.fa-bars').fadeOut(100,function(){
+      $(this)
+        .removeClass('fa-bars')
+        .addClass('fa-times')
+        .fadeIn(); 
+    });
+  })
+  .on('click', '#bubble, .fa-times', function(){ 
+    $('#bubble').fadeOut();
+    $('#mainnav').find('li')
+      .animate(
+        { 'left'   : '-550px' }, 
+        { duration : 250 })
+      .fadeOut({queue: false});
+    
+    $('.hamb').fadeOut(100, function(){
+      $(this)
+        .find($('i'))
+        .removeClass('fa-times')
+        .addClass('fa-bars')
+        .end()
+        .fadeIn();
+    });
+  })
+    
+    
+    
+    
+    
+    
+    
+</script>
+  </header>
+  
+  
+  
+  
+   <!------------- End IS Animation NAVIGATION BAR with javascript & brand logo--------------->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <!--------------- Start Top of the page socical media icons ----------------->
+    <section>
+        
+         <ul class="social">
+     <li>
+        <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i class="fab fa-youtube"></i>
+        </a>
+     </li>
+        <li>
+        <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i class="fab fa-instagram"></i>
+        </a>
+     </li>
+   
+         <li>
+        <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i class="fab fa-twitter"></i>
+        </a>
+     </li>
+      
+   </ul>
+        
+    </section>
+    <!------  End top of the page socical media icons ----->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+ 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!------- release page image block reveal animation  -------------->
+    
+    
+    
+    
+     <!-------- release page block reveal animation  -------------->
+    
+   
+   
+   
+   
+    
+    <section class="single-boxes container-boxes">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script type="text/javascript">
+    TweenMax.staggerFrom('section span', 0.03,{
+        
+        x: 300,
+        opacity: 0
+    },0.03)
+    </script>
+    
+    
+   
+   
+   
+   
+   
+    <!------- release page image block reveal animation  -------------->
+    
+    
+    
+    
+     <!-------- release page block reveal animation  -------------->
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
+    
+    
+    
+<!----  Release page 4 box -------------------- */
+
+/*----  Release page 4box -------------------->
+    
+    
+    <div class="new-albums">Latest Albums Release's</div>
+    <div class="line2"></div>
+    
+    
+    
+<div class="xop-section-1">
+  <ul class="xop-grid-1">
+    <li>
+      <div class="xop-box-1 xop-img-11">
+        <a href="index.html">
+        <div class="xop-info-1">
+          <h3>Paint</h3>
+          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+        </div></a>
+      </div>
+    </li>
+    <li>
+      <div class="xop-box-1 xop-img-22">
+        <a href="#">
+        <div class="xop-info-1">
+          <h3>Soap</h3>
+          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+        </div></a>
+      </div>
+    </li>
+    <li>
+      <div class="xop-box-1 xop-img-33">
+        <a href="#">
+        <div class="xop-info-1">
+          <h3>Flowers</h3>
+          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+        </div></a>
+      </div>
+    </li>
+      <li>
+      <div class="xop-box-1 xop-img-33">
+        <a href="#">
+        <div class="xop-info-1">
+          <h3>Flowers</h3>
+          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+        </div></a>
+      </div>
+    </li>
+  </ul>
+</div>
+    
+    
+    
+    
+    
+    
+    
+   
+   
+<!----  Release page 4 box -------------------- 
+
+----  Release page 4 box -------------------->
+    
+   
+   
+   
+   
+   
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+<!----  News responsive split screen  -------------------- 
+
+----   News responsive split screen -------------------->
+   
+   <div class="NEWS-TITLE">Latest News</div>
+   <div class="line"></div>
+   
+   
+   
+   
+<section class="xop-container-11">
+
+	<div class="xop-left" >
+	  <a  href="index.html"></a>
+	</div>
+	
+	<div class="xop-right">
+      <a  href="index.html"> </a>
+	</div>
+</section>
+
+
+<section class="xop-container-11">
+	<div class="xop-left1">
+		<article>
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero repudiandae minima est sapiente .</h1>
+		</article>
+	</div>
+	<div class="xop-right1">
+		<article>
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero repudiandae minima est sapiente .</h1>
+		</article>
+	</div>
+</section>
+
+
+<section class="xop-container-11">
+
+	<div class="xop-left">
+		
+		<a  href="index.html"> </a>
+		
+	</div>
+	
+	<div class="xop-right">
+	<a  href="index.html"> </a>
+	</div>
+</section>
+   
+   
+   
+<section class="xop-container-11">
+	<div class="xop-left1">
+		<article>
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero repudiandae minima est sapiente .</h1>
+		</article>
+	</div>
+	<div class="xop-right1">
+		<article>
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero repudiandae minima est sapiente .</h1>
+		</article>
+	</div>
+</section>
+   
+   
+      
+   
+   
+   
+   
+   
+   
+<!----  News responsive split screen  -------------------- 
+
+----   News responsive split screen -------------------->
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!------------------------------------ below is FOOTER ------------------------------------------------------------------------------------------------------>
+    
+    <footer>
+        <div id="footer-area">
+            <div class="footer-container"></div>
+            <div class="row">
+              <div class="col-md-12 ">
+                   <div class="single-footer">
+                       <h3> L O W K E Y</h3>
+                       <P class="about-text">Lorem fgfgipsum dolor sit  amet, consectetur adipisicing elit. Saepe sequi amet soluta expedita </P>
+                   <!--    <ul class="footer-social list-inline">
+                          
+                          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                          <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                       </ul> -->
+                   </div>
+               </div> 
+              
+              
+               <!--
+                <div class="col-md-4 col-sm-6">
+                   <div class="single-footer">
+                       <h3 class="recent-news">Recent News</h3>
+                       <ul class="link-area widget list-inline">
+                         <li> <a href=""><img class="random-img" src="https://source.unsplash.com/random" alt=""> </a> </li>
+                         <li> <a href=""> </a> </li>
+                         <li> <a href=""> </a> </li>
+                         <li> <a href=""></a>  </li>       
+                       </ul>
+                   </div>
+               </div>             
+             --
+            
+               
+               
+               <div class="col-md-6 col-sm-6">
+                 <div class="single-footer contact">
+                 <h3>Contact</h3>
+                  <ul class="link-area">
+                    
+                    <li><a href="#"><i class="far fa-envelope"></i>LOWKEY@gmail.com</a></li>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i>375, Godstone Road, London</a></li>
+                    <li><a href="#"><i class="fas fa-globe"></i>www.lowkey.com</a></li>
+                     </ul>
+                 </div>
+               </div>  
+               
+               
+             <!--   <div class="col-md-3 col-sm-6">
+                 <div class="single-footer">
+                 <h3><br>Support</h3>
+                  <ul class="link-area">
+                    <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Product FAQs</a></li>
+                    <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>policies</a></li>
+                    <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>policies</a></li>
+                    <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>policies</a></li>
+                    <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Contact</a></li>
+                  </ul>
+                 </div>
+               </div> --> 
+             </div>
+             
+            </div> 
+        
+        
+        <div class="footer-container-1">
+           <div class="footer-row">
+               <div class="col-md-12">
+                   <div class="copyright-area text-center">
+                       <p>Copyrights &copy; 2019 L O W K E Y |All rights reserved.</p>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </footer>
+    
+    
+    
+</body>
+</html>
